@@ -5,7 +5,7 @@
 import React from 'react';
 import Wrapper from '@/layouts/Wrapper';
 import FooterOne from '@/layouts/footers/FooterOne';
-import HeaderOne from '@/layouts/headers/HeaderOne';
+import Header from '@/layouts/headers/Header';
 import AboutHomeFour from '@/components/about/AboutHomeFour';
 import PortfolioDetailsArea from '@/components/details/PortfolioDetailsArea';
 
@@ -18,7 +18,7 @@ import PortfolioDetailsArea from '@/components/details/PortfolioDetailsArea';
 const index = () => {
   return (
     <Wrapper>
-      <HeaderOne />
+      <Header />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>

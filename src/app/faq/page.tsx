@@ -4,7 +4,7 @@
 import FaqArea from '@/components/faq/FaqArea';
 import Wrapper from '@/layouts/Wrapper';
 import FooterOne from '@/layouts/footers/FooterOne';
-import HeaderOne from '@/layouts/headers/HeaderOne';
+import Header from '@/layouts/headers/Header';
 import React from 'react';
 
 
@@ -16,7 +16,7 @@ import React from 'react';
 const index = () => {
   return (
     <Wrapper>
-      <HeaderOne />
+      <Header />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
