@@ -7,7 +7,7 @@ import HeroService from '@/components/hero/HeroService';
 import Service from '@/components/service/Service';
 import Testimonial from '@/components/testimonial/Testimonial';
 import Wrapper from '@/layouts/Wrapper';
-import FooterOne from '@/layouts/footers/FooterOne';
+import Footer from '@/layouts/footers/Footer';
 import Header from '@/layouts/headers/Header';
 import React from 'react';
 
@@ -28,7 +28,7 @@ const index = () => {
             <Testimonial style_service={true} />
             <AboutHomeFour />
           </main>
-          <FooterOne />
+          <Footer />
         </div>
       </div>
     </Wrapper>

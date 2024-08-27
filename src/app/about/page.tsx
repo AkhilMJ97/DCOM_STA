@@ -11,7 +11,7 @@ import TeamHomeTwo from "@/components/team/TeamHomeTwo";
 import Testimonial from "@/components/testimonial/Testimonial";
 import VideoHomeOne from "@/components/video/VideoHomeOne";
 import Wrapper from "@/layouts/Wrapper";
-import FooterOne from "@/layouts/footers/FooterOne";
+import Footer from "@/layouts/footers/Footer";
 import Header from "@/layouts/headers/Header";
 import VideoPopup from "@/components/modals/VideoPopup";
 
@@ -38,7 +38,7 @@ const index = () => {
             <Gellary style_2={true} />
             <BrandHomeOne />
           </main>
-          <FooterOne />
+          <Footer />
         </div>
       </div>
 

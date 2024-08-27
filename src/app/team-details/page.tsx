@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import Wrapper from '@/layouts/Wrapper';
-import FooterOne from '@/layouts/footers/FooterOne';
+import Footer from '@/layouts/footers/Footer';
 import Header from '@/layouts/headers/Header';
 import ServiceTeam from '@/components/service/ServiceTeam';
 import AboutHomeFour from '@/components/about/AboutHomeFour';
@@ -23,7 +23,7 @@ const index = () => {
             <ServiceTeam />
             <AboutHomeFour />
           </main>
-          <FooterOne />
+          <Footer />
         </div>
       </div>
     </Wrapper>

@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Header from "@/layouts/headers/Header";
-import FooterOne from "@/layouts/footers/FooterOne";
+import Footer from "@/layouts/footers/Footer";
 
 const Error = () => {
   return (
@@ -53,7 +53,7 @@ const Error = () => {
         </section>
         <div className="cs_height_150 cs_height_lg_60"></div>
       </div>
-      <FooterOne />
+      <Footer />
     </>
   );
 };

@@ -13,7 +13,7 @@ import FunFactHomeOne from "@/components/funfact/FunFactHomeOne";
 import VideoHomeOne from "@/components/video/VideoHomeOne";
 import SubscribeHomeOne from "@/components/subscribe/SubscribeHomeOne";
 import BrandHomeOne from "@/components/brand/BrandHomeOne";
-import FooterOne from "@/layouts/footers/FooterOne";
+import Footer from "@/layouts/footers/Footer";
 import Wrapper from "@/layouts/Wrapper";
 import VideoPopup from "@/components/modals/VideoPopup";
 
@@ -42,7 +42,7 @@ const index = () => {
             <SubscribeHomeOne />
             <BrandHomeOne style_2={false} />
           </main>
-          <FooterOne />
+          <Footer />
         </div>
       </div>
 
