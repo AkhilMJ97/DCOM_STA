@@ -246,7 +246,7 @@ const Header = () => {
         <div className="cs_side_header_overlay"></div>
         <div className="cs_side_header_in">
           <Link className="cs_site_branding" href="/">
-            <Image src={Logo_white} alt="Logo" />
+            <Image src={logo} alt="Logo" />
           </Link>
           <div className="row align-items-end">
             <div className="col-7">
