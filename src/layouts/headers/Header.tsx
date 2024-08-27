@@ -308,13 +308,13 @@ const Header = () => {
                       ></path>
                     </svg>
                     <span className="ms-2">
-                      46 JOHN ST TORONTO ON <br />
-                      &nbsp; &nbsp; &nbsp; &nbsp; M5V 3W2
+                      Thiruvananthapuram <br />
+                      &nbsp; &nbsp; &nbsp; &nbsp; Kerala
                     </span>
                   </p>
 
                   <h4 className="cs_phone_number">
-                    <a href="tel:(406)555-0120">
+                    <a href="tel:85896522154">
                       <svg
                         width="35"
                         height="35"
@@ -335,7 +335,7 @@ const Header = () => {
                           fill="white"
                         ></path>
                       </svg>
-                      <span className="ms-2">(406)555-0120</span>
+                      <span className="ms-2">85896522154</span>
                     </a>
                   </h4>
 
@@ -368,7 +368,7 @@ const Header = () => {
                       href="mailto:info@email.com"
                       className="cs_primary_font cs_text_btn"
                     >
-                      <span className="cs_black">info@email.com</span>
+                      <span className="cs_black">info@dcom.com</span>
                     </a>
                   </h2>
                 </div>

@@ -11,7 +11,6 @@ import AwardsHomeOne from "@/components/awards/AwardsHomeOne";
 import Testimonial from "@/components/testimonial/Testimonial";
 import FunFactHomeOne from "@/components/funfact/FunFactHomeOne";
 import VideoHomeOne from "@/components/video/VideoHomeOne";
-import BlogHomeOne from "@/components/blog/BlogHomeOne";
 import SubscribeHomeOne from "@/components/subscribe/SubscribeHomeOne";
 import BrandHomeOne from "@/components/brand/BrandHomeOne";
 import FooterOne from "@/layouts/footers/FooterOne";
@@ -40,7 +39,6 @@ const index = () => {
             <Testimonial />
             <FunFactHomeOne />
             <VideoHomeOne setIsVideoOpen={setIsVideoOpen} />
-            <BlogHomeOne />
             <SubscribeHomeOne />
             <BrandHomeOne style_2={false} />
           </main>
