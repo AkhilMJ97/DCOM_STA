@@ -1,8 +1,7 @@
 "use client";
-
 import React, { useState } from "react";
 import Header from "@/layouts/headers/Header";
-import HeroHomeOne from "@/components/hero/HeroHomeOne";
+import HeroHome from "@/components/hero/HeroHome";
 import AboutHomeOne from "@/components/about/AboutHomeOne";
 import ServiceHomeOne from "@/components/service/ServiceHomeOne";
 import MarqueeAreaHomeOne from "@/components/brand/MarqueeAreaHomeOne";
@@ -30,7 +29,7 @@ const index = () => {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            <HeroHomeOne />
+            <HeroHome />
             <MarqueeAreaHomeOne />
             <AboutHomeOne />
             <ServiceHomeOne />
